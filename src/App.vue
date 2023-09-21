@@ -1,6 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import { counterStore } from './store/store';
+// import { counterStore } from './store/store';
+import { counterStore } from './store/storex';
 const counter = counterStore()
 </script>
 

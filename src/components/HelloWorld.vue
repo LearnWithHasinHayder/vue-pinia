@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
-import { counterStore } from '../store/store';
+// import { counterStore } from '../store/store';
+import { counterStore } from '../store/storex';
 const counter = counterStore()
 
 defineProps({
